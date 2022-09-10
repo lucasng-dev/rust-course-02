@@ -1,3 +1,6 @@
+mod examples;
+
 fn main() {
-  println!("Hello, world!");
+  examples::memory_management::execute();
+  examples::mars_calc::execute();
 }
