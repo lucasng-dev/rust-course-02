@@ -1,6 +1,7 @@
-mod examples;
+mod mars_calc;
+mod memory_management;
 
 fn main() {
-  examples::memory_management::execute();
-  examples::mars_calc::execute();
+  memory_management::execute();
+  mars_calc::execute();
 }
